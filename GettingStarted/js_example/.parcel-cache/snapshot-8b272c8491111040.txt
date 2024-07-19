@@ -1,0 +1,15 @@
+14
+65C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist133658506288871624 1
+89C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\js-logo-xs.6a574e31.png133658506287574677 0
+71C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\index.html133658503602445199 0
+84C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\index.1303bb05.css133658506287760932 0
+83C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\index.c36f364e.js133658506288653386 0
+87C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\index.c36f364e.js.map133658506288733380 0
+88C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\index.1303bb05.css.map133658506287841021 0
+92C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\js_example.3464ddca.js.map133658506288342579 0
+88C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\js_example.3464ddca.js133658506288161227 0
+69C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\index.js133658503698216847 0
+76C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\dist\index.html133658506288773395 0
+75C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\js-logo-xs.png133658506172141975 0
+73C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\package.json133658505729457852 0
+71C:\Users\PabloMartin\Desktop\React\GettingStarted\js_example\styles.css133658503832397660 0
