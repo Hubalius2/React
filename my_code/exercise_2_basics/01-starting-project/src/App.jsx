@@ -24,6 +24,11 @@ function MyMainGoal() {
 
 
 function App() {
+
+  function handleSelect(selected) {
+    alert(selected);
+  }
+
   return (
     <div>
       <Header_function />
@@ -44,14 +49,16 @@ function App() {
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-            <TabButton label="React" />
-            <TabButton label="JSX" />
-            <TabButton label="Props" />
-            <TabButton label="React" />
+            <TabButton label="Components" onSelect={() => handleSelect('components')} />
+            <TabButton label="JSX" onSelect={() => handleSelect('jsx')} />
+            <TabButton label="Props" onSelect={() => handleSelect('props')} />
+            <TabButton label="State" onSelect={() => handleSelect('state')} />
           </menu>
+          Dynamic Content
+
         </section>
 
-        <section>
+        <section id="Web Exercises">
           <h2>Web Exercises</h2>
           <h3>Time to get started!{userData.firstName + " " + userData.lastName}</h3>
           <MyMainGoal />
