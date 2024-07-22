@@ -3,6 +3,8 @@ import componentImg from './assets/components.png';
 import { CORE_CONCEPTS } from './data';
 import Header_function from './components/header/Header';
 import CoreConcept from './components/CoreConcept';
+import TabButton from './components/TabButton';
+import Card_web_exercise from './components/card_exercise/card';
 
 const reactDescriptions = ['Fundamentals', 'Crucial', 'Advanced'];
 export const userData = {
@@ -38,8 +40,33 @@ function App() {
             <CoreConcept {...CORE_CONCEPTS[3]} />
           </ul>
         </section>
-        <h2>Time to get started!{userData.firstName + " " + userData.lastName}</h2>
-        <MyMainGoal />
+
+        <section id="examples">
+          <h2>Examples</h2>
+          <menu>
+            <TabButton label="React" />
+            <TabButton label="JSX" />
+            <TabButton label="Props" />
+            <TabButton label="React" />
+          </menu>
+        </section>
+
+        <section>
+          <h2>Web Exercises</h2>
+          <h3>Time to get started!{userData.firstName + " " + userData.lastName}</h3>
+          <MyMainGoal />
+          <h3>Cards</h3>
+          <Card_web_exercise name="Card">
+            <p>
+              Maria is a professor of Computer Science at the University of Illinois.
+            </p>
+            <p>
+              <a href="mailto:blake@example.com">Email Maria</a>
+            </p>
+          </Card_web_exercise>
+        </section>
+
+
       </main>
 
     </div>

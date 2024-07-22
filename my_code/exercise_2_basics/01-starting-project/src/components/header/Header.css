@@ -6,7 +6,7 @@ header {
 }
 
 header img {
-    height: 5rem;
+    height: 5rem; 
     width: 10rem;
     object-fit: cover;
 }
