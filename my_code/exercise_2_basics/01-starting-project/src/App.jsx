@@ -1,7 +1,7 @@
 import reactImg from './assets/react-core-concepts.png';
 import componentImg from './assets/components.png';
 import { CORE_CONCEPTS } from './data';
-import Header_function from './components/Header';
+import Header_function from './components/header/Header';
 import CoreConcept from './components/CoreConcept';
 
 const reactDescriptions = ['Fundamentals', 'Crucial', 'Advanced'];
